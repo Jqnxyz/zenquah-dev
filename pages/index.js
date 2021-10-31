@@ -14,7 +14,7 @@ export default function Home() {
               <a>
                 <div className="group py-5 mb-5 rounded-lg transition-all bg-white shadow-md hover:ring-pink-400 hover:ring-1 hover:ring-opacity-80">
                   <div className="px-5 font-medium text-2xl">Pretty Alright Privacy</div>
-                  <img class="object-cover h-64 my-5 w-full" src="https://static.govtech.agency/share/zen_quah-pgp-og-R87Vmf.jpg" />
+                  <img className="object-cover h-64 my-5 w-full" src="https://static.govtech.agency/share/zen_quah-pgp-og-R87Vmf.jpg" />
                   <div className="px-5 mt-5 font-light break-words text-justify">Using PGP to verify my work, messages, emails, and the sort.</div>
                   <div className="transition-colors text-right font-semibold pr-5 pt-5 group-hover:text-pink-400">Continue Reading →</div>
                 </div>
@@ -33,7 +33,7 @@ export default function Home() {
               <a>
                 <div className="group py-5 mb-5 rounded-lg transition-all bg-white shadow-md hover:ring-pink-400 hover:ring-1 hover:ring-opacity-80">
                   <div className="px-5 font-medium text-2xl">Pretty Alright Privacy</div>
-                  <img class="object-cover h-64 my-5 w-full" src="https://static.govtech.agency/share/zen_quah-pgp-og-R87Vmf.jpg" />
+                  <img className="object-cover h-64 my-5 w-full" src="https://static.govtech.agency/share/zen_quah-pgp-og-R87Vmf.jpg" />
                   <div className="px-5 mt-5 font-light break-words text-justify">Using PGP to verify my work, messages, emails, and the sort.</div>
                   <div className="transition-colors text-right font-semibold pr-5 pt-5 group-hover:text-pink-400">Continue Reading →</div>
                 </div>
