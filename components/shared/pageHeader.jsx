@@ -4,10 +4,14 @@ import { navBarItem } from "../page/navBar"
 const defaultHeader = {
     title: 'Zen Quah',
     description: 'Zen Quah is a software developer who also takes photos.',
-    image: 'https://static.govtech.agency/share/zen_quah-profile_picture-square-small-HwnQD6.jpg'
+    image: 'https://static.govtech.agency/share/zen_quah-default-og-qFPjX2.jpg'
 }
 
 export function header(props = defaultHeader) {
+    props = {
+        ...defaultHeader,
+        ...props
+    }
   return (
     <div>
         <Head>
