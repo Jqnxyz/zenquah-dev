@@ -24,7 +24,7 @@ export default function Home() {
               <a>
                 <div className="group py-5 mb-5 rounded-lg transition-all bg-white shadow-md hover:ring-pink-400 hover:ring-1 hover:ring-opacity-80">
                   <div className="px-5 font-medium text-2xl">Cats Shall Rule The World</div>
-                  <div className="px-5 mt-5 font-light break-words text-justify">Cats are the world. Meow in empty rooms. Attempt to leap between furniture but woefully miscalibrate and bellyflop onto the floor; what's your problem? i meant to do that now i shall wash myself intently meow going to catch the red dot today going to catch the red dot today drool use lap as chair purrrrrr. Enslave the hooman.</div>
+                  <div className="px-5 mt-5 font-light break-words text-justify">Cats are the world. Meow in empty rooms. Attempt to leap between furniture but woefully miscalibrate and bellyflop onto the floor; what&apos;s your problem? i meant to do that now i shall wash myself intently meow going to catch the red dot today going to catch the red dot today drool use lap as chair purrrrrr. Enslave the hooman.</div>
                   <div className="transition-colors text-right font-semibold pr-5 pt-5 group-hover:text-pink-400">Continue Reading →</div>
                 </div>
               </a>
@@ -43,7 +43,7 @@ export default function Home() {
               <a>
                 <div className="group py-5 mb-5 rounded-lg transition-all bg-white shadow-md hover:ring-pink-400 hover:ring-1 hover:ring-opacity-80">
                   <div className="px-5 font-medium text-2xl">Cats Shall Rule The World</div>
-                  <div className="px-5 mt-5 font-light break-words text-justify">Cats are the world. Meow in empty rooms. Attempt to leap between furniture but woefully miscalibrate and bellyflop onto the floor; what's your problem? i meant to do that now i shall wash myself intently meow going to catch the red dot today going to catch the red dot today drool use lap as chair purrrrrr. Enslave the hooman.</div>
+                  <div className="px-5 mt-5 font-light break-words text-justify">Cats are the world. Meow in empty rooms. Attempt to leap between furniture but woefully miscalibrate and bellyflop onto the floor; what&apos;s your problem? i meant to do that now i shall wash myself intently meow going to catch the red dot today going to catch the red dot today drool use lap as chair purrrrrr. Enslave the hooman.</div>
                   <div className="transition-colors text-right font-semibold pr-5 pt-5 group-hover:text-pink-400">Continue Reading →</div>
                 </div>
               </a>
