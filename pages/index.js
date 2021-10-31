@@ -1,5 +1,3 @@
-import Head from 'next/head'
-
 import { navBarItem } from './page_components/navBar'
 
 export default function Home() {
