@@ -1,10 +1,10 @@
-import { navBarItem } from './page_components/navBar'
-import { sidebarBox } from './page_components/sidebarBox'
+import { navBarItem } from '../components/navBar'
+import { sidebarBox } from '../components/sidebarBox'
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="pt-20 mx-auto 2xl:w-7/12 md:w-10/12 w-11/12">
+      <div className="pt-5 mx-auto 2xl:w-7/12 md:w-10/12 w-11/12">
         <div className="my-10">
           <div className="font-medium text-4xl">Zen Quah</div>
           <div className="my-2 font-light text-xl">Software engineer, also takes photos.</div>
