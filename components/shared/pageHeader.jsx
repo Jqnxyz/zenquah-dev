@@ -1,8 +1,26 @@
+import Head from 'next/head'
 import { navBarItem } from "../page/navBar"
 
-export function header() {
+const defaultHeader = {
+    title: 'Zen Quah',
+    description: 'Zen Quah is a software developer who also takes photos.',
+    image: 'https://static.govtech.agency/share/zen_quah-profile_picture-square-small-HwnQD6.jpg'
+}
+
+export function header(props = defaultHeader) {
   return (
     <div>
+        <Head>
+            <title>{props.title}</title>
+            <meta property="og:title" content={props.title} key="title" />
+            <meta property="og:description" content={props.description} />
+            <meta property="og:image" content={props.image} />
+            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+            <link rel="manifest" href="/site.webmanifest"></link>
+      </Head>
         <div className="block m-0 md:flex md:m-auto">
             <div className="w-auto py-0 text-center md:text-left md:py-5">
                 <img className="inline object-cover rounded-full w-52 h-52 m-auto md:mr-5 md:w-20 md:h-20" src="https://static.govtech.agency/share/zen_quah-profile_picture-square-small-HwnQD6.jpg" alt="Profile image"/>
