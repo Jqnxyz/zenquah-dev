@@ -15,9 +15,11 @@ export default function Home() {
           {navBarItem({ title: 'Contact', url: '/' })}
         </div>
         <div>
-          <div>
+          <div class="w-max block lg:inline-block lg:w-8/12">
+            LEFT
           </div>
-          <div>
+          <div class="w-max block lg:inline-block lg:w-4/12">
+            RIGHT
           </div>
         </div>
       </div>
