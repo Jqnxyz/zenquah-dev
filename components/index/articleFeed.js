@@ -26,14 +26,14 @@ export function feed() {
                 description: "NodeJS package for verifying Singapore NRIC numbers.",
                 action: "View on npm →"
             })}
-            <div className="mt-5">
+            {/* <div className="mt-5">
                 <div className="w-3/6 inline-block text-left">
                     {borderlessButton({ title: '← Previous Page', url: '/?page=2' })}
                 </div>
                 <div className="w-3/6 inline-block text-right">
                     {borderlessButton({ title: 'Next Page →', url: '/?page=2' })}
                 </div>
-            </div>
+            </div> */}
         </div >
     )
 }
