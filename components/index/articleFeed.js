@@ -1,12 +1,7 @@
 import { articleCard } from "./articleCards"
 import { borderlessButton } from "../shared/button"
 
-function latestCards(count = 5) {
-
-}
-
-
-export function feed(props) {
+export function feed() {
     return (
         <div>
             {articleCard({
