@@ -1,11 +1,9 @@
 import { header } from '../../components/shared/pageHeader'
 import { sidebar } from '../../components/shared/pageSidebar'
-import { useRouter } from 'next/router'
 import { articlePage } from '../../components/index/articlePage'
 
 
 const articleView = () => {
-    const router = useRouter()
     const { articleName } = router.query
 
     return (
