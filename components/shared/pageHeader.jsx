@@ -40,7 +40,6 @@ export function header(props = defaultHeader) {
         </div>
         <div className="w-11/12 m-auto text-center md:text-left md:m-0 md:mt-3">
             {navBarItem({ title: '🏠', url: '/' })}
-            {navBarItem({ title: 'Projects', url: 'https://github.com/jqnxyz' })}
             {navBarItem({ title: 'PGP', url: '/id' })}
         </div>
     </div>
