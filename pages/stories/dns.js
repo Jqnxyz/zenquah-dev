@@ -11,7 +11,7 @@ export default function Home() {
                     <div className="w-screen m-0 inline-block md:w-8/12 md:mr-2">
                         <div className="px-5 py-5 rounded-lg bg-white shadow-md mb-64">
                             <div className="font-medium text-2xl">Secure DNS everywhere!</div>
-                            <div className="py-5 font-light break-words text-justify">Follow the guides below to enable secure DNS on your devices (well, just your Apple devices). All the guides use CloudFlare's servers.
+                            <div className="py-5 font-light break-words text-justify">Follow the guides below to enable secure DNS on your devices (well, just your Apple devices). All the guides use CloudFlare&apos;s servers.
                             </div>
                             <div className="pb-5 font-light break-words text-justify">
                                 watchOS does not currently support DNS profiles so stay tuned for an update when it does!
