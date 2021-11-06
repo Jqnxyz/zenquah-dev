@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <div className="min-h-screen bg-white">
             <div className="pt-5 mx-auto 2xl:w-7/12 md:w-10/12">
-                {header({ title: 'DNS Everywhere', description: 'Step-by-step instructions on getting DNS over TLS/HTTPS on all your devices!', image: 'https://static.govtech.agency/share/zen_quah-pgp-og-R87Vmf.jpg' })}
+                {header({ title: 'DNS Everywhere', description: 'Step-by-step instructions on getting DNS over TLS/HTTPS on all your devices!', image: 'https://static.govtech.agency/share/zenquah-dns-NlBDWy.jpg' })}
                 <div className="block md:flex mt-5">
                     <div className="w-screen m-0 inline-block md:w-8/12 md:mr-2">
                         <div className="px-5 py-5 rounded-lg bg-white shadow-md mb-64">

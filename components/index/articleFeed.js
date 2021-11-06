@@ -1,5 +1,4 @@
 import { articleCard } from "./articleCards"
-import { borderlessButton } from "../shared/button"
 
 export function feed() {
     return (
@@ -8,8 +7,8 @@ export function feed() {
                 title: "Secure DNS everywhere!",
                 date: "November 2021",
                 url: "/stories/dns",
-                image: "https://static.govtech.agency/share/zen_quah-pgp-og-R87Vmf.jpg",
-                description: "Step-by-step instructions on getting DNS over TLS/HTTPS on all your devices! *Except Windows",
+                image: "https://static.govtech.agency/share/zenquah-dns-NlBDWy.jpg",
+                description: "Step-by-step instructions on getting DNS over TLS/HTTPS on all your devices! (Well, just your Apple ones)",
                 action: "Lock 'em up →"
             })}
             {articleCard({
