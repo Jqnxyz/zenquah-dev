@@ -5,6 +5,14 @@ export function feed() {
     return (
         <div>
             {articleCard({
+                title: "Secure DNS everywhere!",
+                date: "November 2021",
+                url: "/stories/dns",
+                image: "https://static.govtech.agency/share/zen_quah-pgp-og-R87Vmf.jpg",
+                description: "Step-by-step instructions on getting DNS over TLS/HTTPS on all your devices! *Except Windows",
+                action: "Lock 'em up →"
+            })}
+            {articleCard({
                 title: "Pretty Alright Privacy",
                 date: "October 2021",
                 url: "/id",
