@@ -18,6 +18,9 @@ export default function Home() {
                                 <div className="block w-full text-center md:inline-block md:w-3/6 md:pr-3">
                                     {button({ title: 'Legacy Directory', url: 'https://174.zenquah.dev/', type: 'full' })}
                                 </div>
+                                <div className="block w-full text-center md:inline-block md:w-6/6 md:pr-3">
+                                    {button({ title: 'HomeBridge', url: 'https://homebridge.zenquah.dev/', type: 'full' })}
+                                </div>
                             </div>
                         </div>
                     </div>
