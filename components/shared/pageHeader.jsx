@@ -30,8 +30,8 @@ export function header(props = defaultHeader) {
             <link rel="manifest" href="/site.webmanifest?v=2" />
             <link rel="mask-icon" href="/safari-pinned-tab.svg?v=2" color="#9f9f9f" />
             <link rel="shortcut icon" href="/favicon.ico?v=2" />
-            <meta name="msapplication-TileColor" content="#5d5d5d"/ >
-            <meta name="theme-color" content="#ffffff"/ >
+            <meta name="msapplication-TileColor" content="#5d5d5d" />
+            <meta name="theme-color" content="#ffffff" />
       </Head>
         <div className="block m-0 md:flex md:m-auto">
             <div className="w-auto py-0 text-center md:text-left md:py-5">
