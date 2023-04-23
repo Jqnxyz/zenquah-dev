@@ -24,14 +24,18 @@ export function header(props = defaultHeader) {
 
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
-            <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-            <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-            <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-            <link rel="manifest" href="/site.webmanifest"></link>
+            <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2" />
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=2" />
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=2" />
+            <link rel="manifest" href="/site.webmanifest?v=2" />
+            <link rel="mask-icon" href="/safari-pinned-tab.svg?v=2" color="#9f9f9f" />
+            <link rel="shortcut icon" href="/favicon.ico?v=2" />
+            <meta name="msapplication-TileColor" content="#5d5d5d"/ >
+            <meta name="theme-color" content="#ffffff"/ >
       </Head>
         <div className="block m-0 md:flex md:m-auto">
             <div className="w-auto py-0 text-center md:text-left md:py-5">
-                <img className="inline object-cover rounded-full w-52 h-52 m-auto md:mr-5 md:w-20 md:h-20" src="https://static.govtech.agency/share/zen_quah-profile_picture-square-small-HwnQD6.jpg" alt="Profile image"/>
+                <img className="inline object-cover rounded-full w-52 h-52 m-auto md:mr-5 md:w-20 md:h-20" src="https://static.govtech.agency/share/zen_quah-profile_picture-square-small-v2-compressed-AnS1el.jpg" alt="Profile image"/>
             </div>
             <div className="w-screen p-5 md:px-0 md:w-4/6 md:m-0">
                 <div className="font-medium text-4xl text-center md:text-left">Zen Quah</div>
